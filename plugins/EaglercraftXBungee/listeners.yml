@@ -20,7 +20,7 @@ listener_01:
     online_server_list_trending: true
     online_server_list_portfolios: false
   http_server:
-    enabled: false
+    enabled: true
     root: 'web'
     page_404_not_found: 'default'
     page_index_name:
