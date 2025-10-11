@@ -7,33 +7,37 @@
   <meta name="description" content="Join DreadPixel Network — fun Minecraft servers: Lobby & Skyblock" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    :root{
-      --purple-1: #323033;
-      --purple-2: ##171717;
-      --black-1: #0b0b0d;
+    :root {
+      --gray-1: #1a1a1a;
+      --gray-2: #2e2e2e;
+      --gray-3: #444;
+      --white: #ffffff;
+      --black: #000000;
     }
-    .bg-purple-grad{
-      background: linear-gradient(180deg, var(--purple-2), var(--purple-1));
+    .bg-gray-grad {
+      background: linear-gradient(20deg, var(--gray-2), var(--gray-1));
     }
   </style>
 </head>
-<body class="min-h-screen bg-black-900 text-white bg-black-900" style="background-color: #070607;">
-  <header class="bg-black-1/60 backdrop-blur sticky top-0 z-40">
+<body class="min-h-screen bg-black text-white" style="background-color: #000;">
+  <header class="bg-black/70 backdrop-blur sticky top-0 z-40">
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
       <a href="#" class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-600 to-purple-400 flex items-center justify-center font-bold text-black">DP</div>
+        <div class="w-10 h-10 rounded-lg bg-white flex items-center justify-center">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAABA5JREFUeF7tW10rrFEUfgbj4874mJTjyseFiDokNwqRG5wI/8ANIXcz5CAfSfwBv0CJSyIhyo2knJFwgxQRIsn4mNOzOzMNzTAf+z3zmtmrmd7mnb33u9ez13rW2mvPGEwmkwMRLAYFgLIA5QKKAyKYA6FIUEUBFQVUFFBRQEWBCEZAhUEVBnUQBh0OzzxsMBg0d86QukBcXBza29tRXV39TlEqPjk5iYWFhfAGID4+HgMDA2hsbHQpGhUVBb4tFgump6dd99/e3jQBI6QWQI242k5TN5vN2NjYEAC4y8nJCSoqKqAFCCEHwF3RpKQkTE1NCQAyMjLAz5SLiwu0traK+8fHx7i9vZVmDboCICYmBjk5OSApdnZ2urjBbrfj4OAA/H58fBwrKyvhCYBTK5r62NgYWlpa3ilKALq6ujA3NwcHHOArWNGVBXwFALni8vISDw8PqKyslMIJugVgaGhIRIeEhASPi5yVlRW+AIjoEGUQXGD7Y/MIQvgDYPgHgM0zAOXl5Xh6esL5+XlQNKBLF3DXyOYFgNXVVZydnaG3t9eVRwSCxLcFgMoeHh6KUBnMnkEBoPftsDcXUBagFxcwxhqFD9qf7IFwkNc+RqNR5P7b29tecwFdcEB3dzdSzamwWqwibssQjtPU1ITi4mI0NDQgOjra47AhB4ATXVxcRGZmptjEyNquclzuBZqbmz/FU1cAMDOTJd8SgNLSUry8vOD+/l5cAxH6fEpKinClnp4e1NXVfQ8LyM7OxvPzM3Z3d0Vmtr+/H4j+YEVofX1dkKqzNPbZQLpwgaWlJRAArtrOzg6sViv29vZc8/5Y3vqoEPs5yZMAbG5uCuW/yu74/dHREaqqqgIC29kpqEyQE6+pqUFiYiJGRkZwc3ODra0tcaXQKvr6+rxOkAWO+l/1KPpZJNpw61tbW/ul8mzLound3R3m5+dDB4DzyVwxlqw+rvbj4yPy8/PFCnsKkSyLDw4OipDnr+hqO+wNACpFED6T2NhYr3H+s366A2B5eRms85tMJlApLYR+f3V1JUpissrkQXGAu5I08cLCQgwPDyM3N1cL/cH0uKOjA7Ozs8LdZGSe0gCgxgUFBRgdHUVeXh5eX1+lTJDjcuWZDvPNozRWhWWJVABo/gSBV4bD5ORkKfO8vr4Gi6QEglHm9PRUyrgCXK3qAWtra+J0R4ZQ4bKyMp/Co7/P0wwAdx9N/5GO/t/9grh8Ea404/zMzIxoTl9nev1VcuTL2B/baAaA+4PS0tLQ1taGkpISn+ZIRScmJsLneNx5AuwPa/vT1idUvTT6LxYQzAS17qsA0CoKaL1yssZXFqAsQAc/k5NlzoGMo1xAuYByAfWHCTnnWYEwkA76KBJUJKhIMLJJ8C+RheTQrrx8jQAAAABJRU5ErkJggg==" alt="DreadPixel Logo" class="w-6 h-6" />
+        </div>
         <div>
-          <h1 class="text-lg font-extrabold leading-tight">DreadPixel Network</h1>
-          <p class="text-xs text-purple-200/80">Spooky Madness — Season 1</p>
+          <h1 class="text-lg font-extrabold leading-tight text-white">DreadPixel Network</h1>
+          <p class="text-xs text-gray-400">Spooky Skeletons — Season 1</p>
         </div>
       </a>
-      <nav class="hidden md:flex gap-6 items-center text-sm text-purple-100/90">
+      <nav class="hidden md:flex gap-6 items-center text-sm text-gray-300">
         <a href="#features" class="hover:underline">Features</a>
         <a href="#servers" class="hover:underline">News</a>
         <a href="#rules" class="hover:underline">Rules</a>
       </nav>
       <div class="md:hidden">
-        <button id="menuBtn" class="px-3 py-2 bg-purple-700 rounded-md">Menu</button>
+        <button id="menuBtn" class="px-3 py-2 bg-gray-700 rounded-md text-sm">Menu</button>
       </div>
     </div>
   </header>
@@ -41,85 +45,72 @@
   <main class="max-w-6xl mx-auto px-6 py-16">
     <section class="grid md:grid-cols-2 gap-8 items-center">
       <div>
-        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight text-white">Welcome to <span class="text-purple-300">DreadPixel</span></h2>
-        <p class="mt-4 text-purple-100/90 max-w-xl">Build your island, trade with others, and compete! We update our server regularly with extensive events and features. Join events, grow your economy, and rise to the top with friends!
-</p>
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white">Welcome to <span class="text-gray-300">DreadPixel</span></h2>
+        <p class="mt-4 text-gray-400 max-w-xl">Build your island, trade with others, and compete! We update our server regularly with extensive events and features. Join events, grow your economy, and rise to the top with friends!</p>
 
-        <div class="mt-6 flex flex-wrap gap-4">
+        <div class="mt-6 text-sm text-gray-300 bg-white/5 inline-block px-3 py-2 rounded">
+          IPS: <strong id="serverIp">wss://eagler.minecraftr.us/<br>wss://eaglercraft.minecraft.pe</strong>
         </div>
-
-        <div class="mt-6 text-sm text-purple-200/70 bg-white/3 inline-block px-3 py-2 rounded">IPS: <strong id="serverIp">wss://eagler.minecraftr.us/ 
-           <br>
-            wss://eaglercraft.minecraft.pe</strong> </div>
-          
       </div>
 
       <div class="relative">
-        <div class="rounded-2xl overflow-hidden bg-gradient-to-br from-black to-black-800 p-6 border border-white/5">
-          <div class="bg-purple-grad p-6 rounded-lg shadow-lg">
+          <div class="bg-gray-grad p-6 rounded-lg shadow-lg">
             <h3 class="text-xl font-bold">Server Status</h3>
-            <p class="mt-1 text-sm text-white/70">Version: <span id="mcVersion">1.20.2 - 1.8.8.x </span></p>
-            <div class="mt-4 flex gap-2">
-              <a href="https://discord.gg/yourdiscord" target="_blank" class="px-3 py-2 bg-black/40 rounded">Discord</a>
-              <a href="https://vote.dreadpixel.net" target="_blank" class="px-3 py-2 bg-black/40 rounded">Vote</a>
-              <a href="https://store.dreadpixel.net" target="_blank" class="px-3 py-2 bg-black/40 rounded">Store</a>
-              <a href="https://apply.dreadpixel.net" target="_blank" class="px-3 py-2 bg-black/40 rounded">Apply</a>
+            <p class="mt-1 text-sm text-white/70">Version: <span id="mcVersion">1.20.2 - 1.8.8.x</span></p>
+            <div class="mt-4 flex gap-2 flex-wrap">
+              <a href="https://discord.gg/yourdiscord" target="_blank" class="px-3 py-2 bg-black/40 rounded text-sm">Discord</a>
+              <a href="https://vote.dreadpixel.net" target="_blank" class="px-3 py-2 bg-black/40 rounded text-sm">Vote</a>
+              <a href="https://store.dreadpixel.net" target="_blank" class="px-3 py-2 bg-black/40 rounded text-sm">Store</a>
+              <a href="https://apply.dreadpixel.net" target="_blank" class="px-3 py-2 bg-black/40 rounded text-sm">Apply</a>
             </div>
           </div>
         </div>
-        <div class="absolute -right-6 -bottom-6 opacity-40 pointer-events-none">
-          <svg width="220" height="220" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#6b21a8"/></linearGradient></defs>
-            <circle cx="50" cy="50" r="40" fill="url(#g)" />
-          </svg>
-        </div>
-      </div>
     </section>
 
     <section id="features" class="mt-14">
-      <h3 class="text-2xl font-bold">What we offer</h3>
+      <h3 class="text-2xl font-bold text-white">What we offer</h3>
       <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="p-5 rounded-xl bg-white/3">
+        <div class="p-5 rounded-xl bg-white/5">
           <h4 class="font-semibold">Active Community</h4>
-          <p class="mt-2 text-sm text-purple-100/80">Events, giveaways, and active staff to help new players.</p>
+          <p class="mt-2 text-sm text-gray-300">Events, giveaways, and active staff to help new players.</p>
         </div>
-        <div class="p-5 rounded-xl bg-white/3">
+        <div class="p-5 rounded-xl bg-white/5">
           <h4 class="font-semibold">Custom Skyblock</h4>
-          <p class="mt-2 text-sm text-purple-100/80">Unique island challenges, shops, and progression systems.</p>
+          <p class="mt-2 text-sm text-gray-300">Unique island challenges, shops, and progression systems.</p>
         </div>
-        <div class="p-5 rounded-xl bg-white/3">
+        <div class="p-5 rounded-xl bg-white/5">
           <h4 class="font-semibold">Secure & Fast</h4>
-          <p class="mt-2 text-sm text-purple-100/80">Optimized servers and anti-cheat measures.</p>
+          <p class="mt-2 text-sm text-gray-300">Optimized servers and anti-cheat measures.</p>
         </div>
       </div>
     </section>
 
     <section id="servers" class="mt-14">
-      <h3 class="text-2xl font-bold">News</h3>
+      <h3 class="text-2xl font-bold text-white">News</h3>
       <div class="mt-6 grid md:grid-cols-2 gap-6">
-        <div class="p-5 rounded-xl bg-white/3">
+        <div class="p-5 rounded-xl bg-white/5">
           <h4 class="font-bold">Release</h4>
           <p class="mt-2 text-sm">Official Server Release</p>
-          <div class="mt-4 text-sm text-purple-200/80">October 22 2025</div>
+          <div class="mt-4 text-sm text-gray-400">October 22 2025</div>
         </div>
-        <div class="p-5 rounded-xl bg-white/3">
+        <div class="p-5 rounded-xl bg-white/5">
           <h4 class="font-bold">Downtime For Update</h4>
           <p class="mt-2 text-sm">Remove Halloween Stuff</p>
-          <div class="mt-4 text-sm text-purple-200/80">December 5</div>
+          <div class="mt-4 text-sm text-gray-400">December 5</div>
         </div>
       </div>
     </section>
 
     <section id="rules" class="mt-14">
-      <h3 class="text-2xl font-bold">Rules & Info</h3>
-      <ul class="mt-4 space-y-2 text-sm text-purple-100/80">
+      <h3 class="text-2xl font-bold text-white">Rules & Info</h3>
+      <ul class="mt-4 space-y-2 text-sm text-gray-300">
         <li>Be respectful to others.</li>
         <li>No cheating or exploiting.</li>
         <li>Follow staff instructions.</li>
       </ul>
     </section>
 
-    <footer class="mt-20 border-t border-white/5 pt-8 pb-12 text-sm text-purple-200/70">
+    <footer class="mt-20 border-t border-white/10 pt-8 pb-12 text-sm text-gray-400">
       <div class="flex flex-col md:flex-row md:justify-between gap-6">
         <div>
           <strong>DreadPixel Network</strong>
