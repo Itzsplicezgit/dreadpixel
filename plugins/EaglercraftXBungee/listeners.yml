@@ -10,7 +10,8 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&7// &cDreadPixel &7//'
+  - '&8&l//&r &c&lDreadpixel Network &8&l// &a&l   Season 1   &8&l//&r &e   &8
+&l//       &e&lRelease!   &8&l//    &6&lHallowen Event   &8&l//'
   allow_motd: true
   allow_query: true
   request_motd_cache:
