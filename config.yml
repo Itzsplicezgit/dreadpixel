@@ -47,6 +47,6 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    address: extreme4m5n.creepercloud.io:25867
+    address: yx64-fs3.creepercloud.io:25989
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
