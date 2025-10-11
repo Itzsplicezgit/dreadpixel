@@ -28,7 +28,7 @@ permissions:
   - bungeecord.command.reload
   - bungeecord.command.kick
 log_pings: true
-connection_throttle_limit: 3
+connection_throttle_limit: -1
 server_connect_timeout: 5000
 timeout: 30000
 stats: af584477-4f1f-47f1-8934-cbf46c3b04e7
