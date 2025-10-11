@@ -23,7 +23,7 @@ listener_01:
   http_server:
     enabled: true
     root: 'web'
-    page_404_not_found: 'default'
+    page_404_not_found: 'index'
     page_index_name:
     - 'index.html'
     - 'index.htm'
