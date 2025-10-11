@@ -4,13 +4,13 @@ listener_01:
   max_players: 125
   tab_list: GLOBAL_PING
   default_server: lobby
-  force_default_server: false
+  force_default_server: true
   forward_ip: false
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&d&l&o&l&nDreadPixel Network
+  - '&d&l&o&nDreadPixel Network
 &7Season 1 Release: &f&lSpooky Madness'
   allow_motd: true
   allow_query: true
@@ -23,7 +23,7 @@ listener_01:
   http_server:
     enabled: true
     root: 'web'
-    page_404_not_found: 'default'
+    page_404_not_found: 'index'
     page_index_name:
     - 'index.html'
     - 'index.htm'
