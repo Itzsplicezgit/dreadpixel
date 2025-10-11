@@ -10,8 +10,8 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&d&lDreadPixel Network'
-  - '&7Season 1 Release: &f&lSpooky Skeletons'
+  - '&F&lDreadPixel Network'
+  - '&7Season 1 Release: &fSpooky Skeletons'
   allow_motd: true
   allow_query: true
   request_motd_cache:
