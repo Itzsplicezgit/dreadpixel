@@ -11,7 +11,7 @@ listener_01:
   server_icon: server-icon.png
   server_motd:
   - '&F&lDreadPixel Network'
-  - '&7Season 1 Release: &fSpooky Skeletons'
+  - '&7Season 1 Release: &8Spooky Skeletons'
   allow_motd: true
   allow_query: true
   request_motd_cache:
