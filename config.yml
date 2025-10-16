@@ -50,7 +50,7 @@ servers:
     address: yx64-fs3.creepercloud.io:26039
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
-  lobby:
+  dnd:
     address: yx64-fs3.creepercloud.io:26293
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
