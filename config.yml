@@ -47,7 +47,7 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    address: dynamic-12.magmanode.com:25834
+    address: dynamic-10.magmanode.com:25834
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
   dnd:
