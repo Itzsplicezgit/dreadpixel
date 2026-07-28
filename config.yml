@@ -47,7 +47,7 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    address: 23.243.70.165:25565
+    address: certain-express.gl.joinmc.link
     motd: '&7// &cDreadPixel Network &7//'
     restricted: false
   dnd:
